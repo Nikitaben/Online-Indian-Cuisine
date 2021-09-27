@@ -10,6 +10,8 @@ import { ProductPageComponent } from './components/product-page/product-page.com
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './Components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { MatSelectModule } from '@angular/material/select';
     HomepageComponent,
     ProductComponent,
     ProductsComponent,
-    ProductPageComponent
+    ProductPageComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
